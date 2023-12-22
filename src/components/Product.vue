@@ -20,6 +20,7 @@ export default {
         <div class="card-body">
           <h5 class="card-title">{{ data.productName }}</h5>
           <Rating :initalRating="data.rating" />
+          <p class="card-text">{{ data.productPrice }}</p>
           <p class="card-text">{{ data.description }}</p>
           <p class="card-text">
             <small class="text-muted">{{ data.releasedDate }}</small>
